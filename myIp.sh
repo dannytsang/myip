@@ -22,6 +22,5 @@ then
 else
     # No previous IP file found so create one.
     $(writeToFile $newIp)
-    echo "write to file $newIP 1"
 fi
 
