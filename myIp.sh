@@ -21,6 +21,6 @@ then
     fi
 else
     # No previous IP file found so create one.
-    $(writeToFile $newIp)
+    writeToFile $newIp
 fi
 
