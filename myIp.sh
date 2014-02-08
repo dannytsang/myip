@@ -6,7 +6,7 @@ source config.sh
 source writer.sh
 
 # Get IP
-newIp=$(`curl ifconfig.me`)
+newIp=`curl $IP_SITE`
 
 # Get last IP if any
 if [ -f $IP_FILE_PATH ]
